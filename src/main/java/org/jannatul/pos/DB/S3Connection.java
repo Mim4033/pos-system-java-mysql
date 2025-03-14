@@ -18,8 +18,8 @@ import java.time.format.DateTimeFormatter;
 public class S3Connection {
 
     String bucketName = "kassa-system-projekt-123";
-    String accesskey = "AKIATG6MG4WNXKWJU65L";
-    String secretkey = "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";
+    String accesskey = "change-me";
+    String secretkey = "change-me";
 
     LocalDateTime now = LocalDateTime.now();
     DateTimeFormatter formatter = DateTimeFormatter.ofPattern("yyyyMMddHHmmss");
